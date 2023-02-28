@@ -1,5 +1,8 @@
 # 入力値を変数maxに格納。
-max=input("数値を入力してください。>>>");
-
+tmp=input("最大値を入力してください。>>>");
+print("==============================");
 # 出力
-print(max);
+max=int(tmp);
+
+for i in range(max):
+    print(i+1);
